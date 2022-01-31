@@ -1,0 +1,22 @@
+{
+  "name": "cs648.02_assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "watch": "babel --presets react --watch src --out-dir public",
+    "compile": "babel --presets react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prashanth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
